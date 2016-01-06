@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:background="@drawable/calm">
+
+     <ScrollView
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="0dip"
+         android:layout_weight="4.27"
+         android:fillViewport="true"
+         android:orientation="vertical"
+         android:scrollbars="vertical" >
+
+         <TextView
+             android:id="@+id/tv_un"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:textColor="#ff000000" />
+     </ScrollView>
+
+    
+
+     <AbsoluteLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         
+         android:gravity="bottom" >
+
+         <ImageButton
+             android:id="@+id/home"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:layout_marginLeft="15dp"
+             android:layout_x="81dp"
+             android:layout_y="0dp"
+             android:background="#ffC11B17"
+             android:contentDescription="@string/hospital"
+             android:src="@drawable/home" />
+
+         <ImageButton
+             android:id="@+id/back"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:layout_x="30dp"
+             android:layout_y="0dp"
+             android:background="#ffC11B17"
+             android:contentDescription="@string/hospital"
+             android:src="@drawable/backs" />
+
+         <ImageButton
+             android:id="@+id/about"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:layout_x="183dp"
+             android:layout_y="0dp"
+             android:background="#ffC11B17"
+             android:contentDescription="@string/ABOUT_US"
+             android:src="@drawable/backss" />
+
+         <ImageButton
+             android:id="@+id/help"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:layout_x="234dp"
+             android:layout_y="0dp"
+             android:background="#ffC11B17"
+             android:contentDescription="@string/HELP"
+             android:src="@drawable/homess" />
+
+         <ImageButton 
+             android:id="@+id/btnSave"
+             android:layout_width="50dp"
+             android:layout_height="30dp"
+             android:layout_x="132dp"
+             android:layout_y="0dp"
+             android:background="#ffC11B17"
+             android:contentDescription="@string/SHOW_ON_MAP"
+             android:src="@drawable/earth"/>
+     </AbsoluteLayout>
+
+ </LinearLayout>

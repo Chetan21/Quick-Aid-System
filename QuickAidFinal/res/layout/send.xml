@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="105dp"
+        android:text="@string/SEND1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/customb"
+        android:text="@string/HOSPITAL" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/ATM" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/POLICE" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/BLOOD_BANK" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/VET" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/PETROL" />
+    
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/HOME" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customb"
+        android:text="@string/BACK" />
+
+</LinearLayout>

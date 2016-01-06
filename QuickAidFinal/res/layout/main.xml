@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/star">
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:layout_marginTop="62dp"
+            android:layout_x="23dp"
+            android:layout_y="79dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+    </AbsoluteLayout>
+

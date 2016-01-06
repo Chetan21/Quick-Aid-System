@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/my"
+         >
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_y="21dp"
+            android:overScrollMode="ifContentScrolls" 
+            >
+        	
+            </ListView>
+
+       <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="20dip"   
+    android:paddingTop="2dip" >
+
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/QUICK_AID"
+        android:textColor="#ff000000"
+        android:textSize="20dip"
+        android:textStyle="bold" 
+        />
+
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:contentDescription="@string/BACK"
+        android:layout_width="65dp"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/customb1"
+        
+        
+        android:src="@drawable/goback" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_x="66dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HOME"
+        android:src="@drawable/home1" />
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_x="194dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/backss" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="62dp"
+        android:layout_height="20dp"
+        android:layout_x="258dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/homess" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:layout_x="130dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/SHOW_ON_MAP"
+        android:src="@drawable/map" />
+
+</AbsoluteLayout>
+       
+    </AbsoluteLayout>       

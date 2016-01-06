@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, simpleGoogleMaps</string>
+    <string name="app_name">Quick Aid</string>
+    <string name="go">Go</string>
+    <string name="address">Enter your address:</string>
+    <string name="input">City, Street</string>
+    <string name="ok">OK</string>
+    <string name="HOME">HOME</string>
+    <string name="GO">GO</string>
+	<string name="SHOW_ON_MAP">SHOW ON MAP</string>
+	<string name="BACK">BACK</string>
+	<string name="ENTER_A_CITY">ENTER A CITY</string>
+	<string name="logo">logo</string>
+	<string name="QUICK_AID">QUICK AID</string>
+	<string name="Name:">Name :</string>
+	<string name="Email_Id:">Email Id :</string>
+	<string name="Phone_Number:">Phone Number :</string>
+	<string name="LOCATE_PLACE">LOCATE PLACE</string>
+	<string name="LOCATE_YOURSELF">LOCATE YOURSELF</string>
+	<string name="OPTIONS">OPTIONS</string>
+	<string name="OPERATIONS">OPERATIONS</string>
+	<string name="SEARCH">SEARCH</string>
+	<string name="SEND">SEND</string>
+	<string name="ENTER_LOCATION">ENTER LOCATION</string>
+	<string name="CITY">CITY</string>
+    <string name="CITY_AND_ZONE">CITY AND ZONE</string>
+    <string name="BLOOD_BANK">BLOOD BANK</string>
+    <string name="CITY_ZONE_AND_LOCATION">CITY, ZONE AND LOCATION</string>
+    <string name="ENTER_A_ZONE:">ENTER A ZONE</string>
+    <string name="SERVICES">SERVICES</string>
+    <string name="LOCATE">LOCATE</string>
+    <string name="ABOUT_US">ABOUT US</string>
+    <string name="HELP">HELP</string>
+    <string name="HOSPITAL">HOSPITAL</string>
+    <string name="ATM">ATM</string>
+    <string name="PETROL">GAS STATION</string>
+    <string name="POLICE">POLICE</string>
+    <string name="VET">VET</string>
+    <string name="EXIT">EXIT</string>
+    <string name="around">PLACES AROUND</string>
+    <string name="around1">SELECT PLACE</string>
+    <string name="SEND1">SELECT SERVICE</string>
+    <string name="hospital">HOSPITAL</string>
+    <string name="Address:">Address :</string>
+    <string name="Landmark:">Landmark :</string>
+    <string name="Speciality">Speciality :</string>
+    <string name="Phone">Phone :</string>
+    <string name="explore">EXPLORE</string>
+    <string name="inputText">Enter Message</string>
+    <string name="dist">Distance :</string>
+    
+</resources>

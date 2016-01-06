@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/my" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            
+            android:layout_x="10dp"
+            android:layout_y="298dp"
+            android:background="@drawable/customb"
+            android:text="@string/GO" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="230dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_pno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffC11B17"
+            android:layout_x="7dp"
+            android:layout_y="200dp"
+            android:text="@string/Phone_Number:"
+            
+            android:textSize="12pt" />
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="160dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/tv_ln"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_x="7dp"
+            android:layout_y="130dp"
+            android:text="@string/Email_Id:"
+            android:textColor="#ffC11B17"
+            android:textSize="12pt" />
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="90dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/tv_un"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_x="7dp"
+            android:layout_y="60dp"
+            android:text="@string/Name:"
+            android:textColor="#ffC11B17"
+            android:textSize="12pt" />
+
+        <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="20dip"   
+    android:paddingTop="3dip" >
+
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/QUICK_AID"
+        android:textColor="#ff000000"
+        android:textSize="20dip"
+        android:textStyle="bold" 
+        
+        />
+
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:contentDescription="@string/BACK"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        
+        
+        android:src="@drawable/goback" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="81dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HOME"
+        android:src="@drawable/home1" />
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="162dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/backss" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_x="243dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/homess" />
+
+</AbsoluteLayout>
+        
+    </AbsoluteLayout>
+

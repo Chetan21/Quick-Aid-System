@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/my"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="24dp"
+        android:src="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="84dp"
+        android:layout_y="194dp"
+        android:background="@drawable/customb"
+        android:soundEffectsEnabled="true"
+        android:text="@string/SERVICES"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loc"
+        android:layout_width="148dp"
+        android:layout_height="40dp"
+        android:layout_x="86dp"
+        android:layout_y="239dp"
+        android:background="@drawable/customb"
+        android:soundEffectsEnabled="true"
+        android:text="@string/LOCATE"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:layout_x="87dp"
+        android:layout_y="286dp"
+        android:background="@drawable/customb"
+        android:text="@string/ABOUT_US"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="333dp"
+        android:background="@drawable/customb"
+        android:text="@string/HELP"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_x="87dp"
+        android:layout_y="379dp"
+        android:background="@drawable/customb"
+        android:text="@string/EXIT"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    
+
+    <ImageButton
+        android:id="@+id/mbtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_x="-3dp"
+        android:layout_y="452dp"
+        android:background="#ffC11B17"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/m" />
+
+    <ImageButton
+        android:id="@+id/obtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_x="125dp"
+        android:layout_y="452dp"
+        android:background="#ffC11B17"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/o" />
+
+    <ImageButton
+        android:id="@+id/gbtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_x="60dp"
+        android:layout_y="452dp"
+        android:background="#ffC11B17"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/g" />
+
+    <ImageButton
+        android:id="@+id/fbtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_x="194dp"
+        android:layout_y="452dp"
+        android:background="#ffC11B17"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/f" />
+
+    <ImageButton
+        android:id="@+id/tbtn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_x="257dp"
+        android:layout_y="452dp"
+        android:background="#ffC11B17"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/t" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_x="106dp"
+        android:layout_y="5dp"
+        android:text="@string/OPTIONS"
+        android:textColor="#ff2A682B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

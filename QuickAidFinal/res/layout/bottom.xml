@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_x="0dp"
+        android:layout_y="-11dp"
+        android:gravity="bottom" >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_x="91dp"
+            android:layout_y="446dp"
+            android:background="#ffC11B17"
+            android:contentDescription="@string/hospital"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_x="20dp"
+            android:layout_y="446dp"
+            android:background="#ffC11B17"
+            android:contentDescription="@string/hospital"
+            android:src="@drawable/backs" />
+
+        <ImageButton
+            android:id="@+id/about"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_x="161.5dp"
+            android:layout_y="446dp"
+            android:background="#ffC11B17"
+            android:contentDescription="@string/ABOUT_US"
+            android:src="@drawable/backss" />
+
+        <ImageButton
+            android:id="@+id/help"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_x="232dp"
+            android:layout_y="446dp"
+            android:background="#ffC11B17"
+            android:contentDescription="@string/HELP"
+            android:src="@drawable/homess" />
+
+    </AbsoluteLayout>

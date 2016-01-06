@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/my" >
+
+   <TextView
+        android:id="@+id/txtvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_x="105dp"
+        android:layout_y="36dp"
+        android:text="@string/OPTIONS"
+        android:textColor="#ff2A682B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+   <Button
+            android:id="@+id/locYou"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_x="82dp"
+            android:layout_y="265dp"
+            android:background="@drawable/customb"
+            android:text="@string/LOCATE_YOURSELF" />
+
+        <Button
+            android:id="@+id/placeLoc"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="21dp"
+            android:layout_x="82dp"
+            android:layout_y="320dp"
+            android:background="@drawable/customb"
+            android:text="@string/LOCATE_PLACE" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="65dp"
+            
+            android:src="@drawable/logo1" />
+   
+   <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="20dip"   
+    android:paddingTop="3dip" >
+
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/QUICK_AID"
+        android:textColor="#ff000000"
+        android:textSize="20dip"
+        android:textStyle="bold" 
+        
+        />
+
+
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:contentDescription="@string/BACK"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        
+        
+        android:src="@drawable/goback" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="81dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HOME"
+        android:src="@drawable/home1" />
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_x="162dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/backss" />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_x="243dp"
+        android:layout_y="-3dp"
+        android:background="@drawable/customb1"
+        android:contentDescription="@string/HELP"
+        android:src="@drawable/homess" />
+
+</AbsoluteLayout>
+
+</AbsoluteLayout>

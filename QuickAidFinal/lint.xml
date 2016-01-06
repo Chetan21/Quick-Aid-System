@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\misc.xml" />
+        <ignore path="res\layout\near.xml" />
+        <ignore path="res\layout\operation.xml" />
+        <ignore path="res\layout\search.xml" />
+        <ignore path="res\layout\service.xml" />
+    </issue>
+    <issue id="Deprecated">
+        <ignore path="res\layout\city.xml" />
+        <ignore path="res\layout\displist.xml" />
+        <ignore path="res\layout\end.xml" />
+        <ignore path="res\layout\finish.xml" />
+        <ignore path="res\layout\listdisp.xml" />
+        <ignore path="res\layout\listdisp1.xml" />
+        <ignore path="res\layout\locate.xml" />
+        <ignore path="res\layout\main.xml" />
+        <ignore path="res\layout\map.xml" />
+        <ignore path="res\layout\misc.xml" />
+        <ignore path="res\layout\near.xml" />
+        <ignore path="res\layout\operation.xml" />
+        <ignore path="res\layout\search.xml" />
+        <ignore path="res\layout\select.xml" />
+        <ignore path="res\layout\service.xml" />
+        <ignore path="res\layout\trial.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res\layout\end.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res\layout\finish.xml" />
+    </issue>
+</lint>

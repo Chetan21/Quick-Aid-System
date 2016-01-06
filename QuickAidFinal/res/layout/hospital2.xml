@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name:" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv"
+            android:layout_below="@+id/tv" >
+
+            <requestFocus >
+            </requestFocus>
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/autocomplete_name"
+            android:background="@drawable/customb"
+            android:layout_marginTop="05dip"
+            
+            android:text="@string/GO" >
+        </Button>
+         <Button
+            android:id="@+id/Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/autocomplete_name"
+            android:background="@drawable/customb"
+              android:layout_toRightOf="@id/search"
+              android:layout_marginLeft="5dp"
+            android:layout_marginTop="05dip"
+            android:text="@string/HOME" >
+        </Button>
+
+         <Button
+             android:id="@+id/back"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/Home"
+             android:layout_alignBottom="@+id/Home"
+             android:layout_toRightOf="@+id/Home"
+             android:layout_marginLeft="5dp"
+             android:background="@drawable/customb"
+             android:text="@string/BACK" />
+
+    </RelativeLayout>
+
+</ScrollView>
